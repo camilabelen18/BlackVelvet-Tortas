@@ -2,12 +2,10 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-
 </head>
 
 <header>
-    <div class="navbar container row align-items-center m-auto">
+    <div class="navbar container row align-items-center m-auto my-2">
         <div class="col-2">
             <div class="input-group rounded">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
@@ -17,34 +15,42 @@
 				</span>
             </div>
         </div>
-        <div class="col-6" id="contenedor-menu">
-            <ul class="nav nav-pills">
+        <div class="col-7" id="contenedor-menu">
+            <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tienda</a>
+                    <a class="nav-link" href="tienda">Tienda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="a-logo-bv" href="#"><img id="logo-bv" src="imagenes/logo/logo-blackv.png"></a>
+                    <a class="nav-link" id="a-logo-bv" href="home">
+                        <img id="logo-bv" src="imagenes/logo/logo-blackv.png">
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Propuestas</a>
+                    <a class="nav-link" href="#">Propuestas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Otro</a>
                 </li>
             </ul>
         </div>
-        <div class="col-3" id="carrito-usuario">
+        <div class="col-2" id="carrito-usuario">
             <div id="contenedor-bolso">
-                <a class="bolso"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a class="bolso" href="#">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
                 <div class="contenedor-precio">
-                    <a>$100.0</a>
-                    <p>0 productos</p>
+                    <p id="precio-carrito">$0.00</p>
+                    <p>0 Productos</p>
                 </div>
             </div>
             <div>
-                <a class="usuario"><i class="fa-solid fa-user"></i></a>
+                <a class="usuario" href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
             </div>
-
         </div>
     </div>
 </header>

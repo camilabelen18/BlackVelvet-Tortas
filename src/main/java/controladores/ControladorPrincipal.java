@@ -10,9 +10,20 @@ public class ControladorPrincipal {
 	
 	@RequestMapping(path = "/", method = RequestMethod.GET)
     public ModelAndView inicio() {
-		
-		
+
         return new ModelAndView("index");
+    }
+
+    @RequestMapping(path = "/home", method = RequestMethod.GET)
+    public ModelAndView irAHome() {
+
+        return new ModelAndView("index");
+    }
+
+    @RequestMapping(path = "/tienda", method = RequestMethod.GET)
+    public ModelAndView irATienda() {
+
+        return new ModelAndView("tienda");
     }
 
 }
