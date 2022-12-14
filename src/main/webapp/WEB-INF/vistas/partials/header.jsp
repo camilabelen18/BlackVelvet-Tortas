@@ -21,7 +21,7 @@
                     <a class="nav-link" href="home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tienda">Tienda</a>
+                    <a class="nav-link" href="verProductos">Tienda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="a-logo-bv" href="home">
