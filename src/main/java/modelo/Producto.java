@@ -14,7 +14,6 @@ public class Producto {
     private String descripcion;
     private Categoria categoria;
 
-
     public Producto() {
     }
 
