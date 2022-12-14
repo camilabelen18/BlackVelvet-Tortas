@@ -20,10 +20,5 @@ public class ControladorPrincipal {
         return new ModelAndView("index");
     }
 
-    @RequestMapping(path = "/tienda", method = RequestMethod.GET)
-    public ModelAndView irATienda() {
-
-        return new ModelAndView("tienda");
-    }
 
 }
