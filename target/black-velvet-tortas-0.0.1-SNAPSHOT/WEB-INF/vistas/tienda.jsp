@@ -55,22 +55,69 @@
                     </ul>
                 </div>
             </div>
-            <div>
 
-                <div class="cuadro-producto">
-                    <div class="visually-hidden">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-magnifying-glass"></i>
+            <div>
+                <div class="contenedor-imagenes-productos">
+                    <div class="cuadro-producto">
+                        <div class="visually-hidden">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
+                        </div>
+                        <div>
+                            <p>Macarons</p>
+                            <p class="precio-producto">$350.00</p>
+                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                        </div>
                     </div>
-                    <div>
-                        <img src="imagenes/productos/1Macarons.jpg" width="100px">
+                    <div class="cuadro-producto">
+                        <div class="visually-hidden">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
+                        </div>
+                        <div>
+                            <p>Macarons</p>
+                            <p class="precio-producto">$350.00</p>
+                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                        </div>
                     </div>
-                    <div>
-                        <p>Macarons</p>
-                        <p>$350.00</p>
-                        <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                    <div class="cuadro-producto">
+                        <div class="visually-hidden">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
+                        </div>
+                        <div>
+                            <p>Macarons</p>
+                            <p class="precio-producto">$350.00</p>
+                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                        </div>
                     </div>
+                    <div class="cuadro-producto">
+                        <div class="visually-hidden">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
+                        </div>
+                        <div>
+                            <p>Macarons</p>
+                            <p class="precio-producto">$350.00</p>
+                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                        </div>
+                    </div>
+
                 </div>
+
+
 
                 <c:forEach var="producto" items="${listaProductos}">
                     <p>${producto.nombre}</p>

@@ -13,7 +13,27 @@
     font-weight: bold;
     padding-top: 260px;
 }
-
-.cuadro-producto:hover {
-
+.contenedor-imagenes-productos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+.cuadro-producto{
+    width: 21%;
+}
+.imagen{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contenedor-imagenes-productos p{
+    margin: 0;
+}
+
+.precio-producto{
+    color: #ad172b;
+    font-weight: bold;
+}
+
