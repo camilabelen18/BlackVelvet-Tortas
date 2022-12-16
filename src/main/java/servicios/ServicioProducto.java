@@ -1,9 +1,9 @@
 package servicios;
 
-import modelo.Producto;
+import modelo.*;
 
 import java.util.List;
 
 public interface ServicioProducto {
-    List<Producto> obtenerProductos();
+    List<Producto_Imagen> obtenerProductos();
 }

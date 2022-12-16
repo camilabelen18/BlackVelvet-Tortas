@@ -1,6 +1,6 @@
 package controladores;
 
-import modelo.Producto;
+import modelo.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -32,10 +32,9 @@ public class ControladorProducto {
     @RequestMapping(path = "/verProductos", method = RequestMethod.GET)
     public ModelAndView verProductos() {
         ModelMap modelo = new ModelMap();
-        List<Producto> listaProductos = servicioProducto.obtenerProductos();
+        List<Producto_Imagen> listaProductos = servicioProducto.obtenerProductos();
         modelo.put("listaProductos", listaProductos);
         return new ModelAndView("tienda",modelo);
-
     }
 
 }
