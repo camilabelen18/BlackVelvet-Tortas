@@ -11,15 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c320b0d-7eff-4bf4-a893-065d1f65aad9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controladores/ControladorProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controladores/ControladorProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorios/RepositorioProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorios/RepositorioProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositorios/RepositorioProductoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositorios/RepositorioProductoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/ServicioProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicios/ServicioProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/ServicioProductoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicios/ServicioProductoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/partials/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/partials/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/tienda.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/vistas/tienda.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/tienda.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/tienda.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +207,7 @@
       <workItem from="1671054032327" duration="1429000" />
       <workItem from="1671121041513" duration="4308000" />
       <workItem from="1671137880380" duration="6337000" />
-      <workItem from="1671302032094" duration="9479000" />
+      <workItem from="1671302032094" duration="10860000" />
     </task>
     <servers />
   </component>

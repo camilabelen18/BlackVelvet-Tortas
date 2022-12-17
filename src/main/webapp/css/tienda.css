@@ -77,8 +77,23 @@
     margin: 0;
 }
 
+.nombre-precio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 72px;
+}
+
 .precio-producto{
     color: #ad172b;
     font-weight: bold;
+}
+
+#paginacion{
+    margin-left: 250px;
+}
+
+#paginacion li{
+    color: #f34ec8;
 }
 

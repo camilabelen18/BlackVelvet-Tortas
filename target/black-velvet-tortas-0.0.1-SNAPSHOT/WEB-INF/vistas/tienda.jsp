@@ -71,7 +71,7 @@
                                 <img class="imagen" src="imagenes/productos/${itemProducto.imagen.nombre}.jpg"
                                      width="100px">
                             </div>
-                            <div>
+                            <div class="nombre-precio">
                                 <p>${itemProducto.producto.nombre}</p>
                                 <p class="precio-producto">$${itemProducto.producto.precio}</p>
                                 <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
@@ -82,7 +82,7 @@
             </div>
             <div>
                 <nav aria-label="Page navigation example">
-                    <ul class="pagination">
+                    <ul id="paginacion" class="pagination">
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
