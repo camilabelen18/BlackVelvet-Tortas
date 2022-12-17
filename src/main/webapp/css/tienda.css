@@ -18,10 +18,12 @@
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .cuadro-producto{
-    width: 21%;
+    width: 22%;
+    margin-bottom: 40px;
 }
 .imagen{
     width: 100%;

@@ -1,6 +1,7 @@
 package repositorios;
 
 import modelo.Producto;
+import modelo.Producto_Imagen;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class RepositorioProductoImpl implements RepositorioProducto{
     @Autowired
     private SessionFactory session;
     @Override
-    public List<Producto> obtenerProductos() {
-        return session.getCurrentSession().createCriteria(Producto.class).list();
+    public List<Producto_Imagen> obtenerProductos() {
+        return session.getCurrentSession().createCriteria(Producto_Imagen.class).list();
     }
 }

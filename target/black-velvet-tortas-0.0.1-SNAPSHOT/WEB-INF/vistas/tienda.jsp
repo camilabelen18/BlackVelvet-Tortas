@@ -58,80 +58,45 @@
 
             <div>
                 <div class="contenedor-imagenes-productos">
-                    <div class="cuadro-producto">
-                        <div class="visually-hidden">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                    <c:forEach var="itemProducto" items="${listaProductos}">
+                        <div class="cuadro-producto">
+                            <div class="visually-hidden">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div>
+                                <img class="imagen" src="imagenes/productos/${itemProducto.imagen.nombre}.jpg" width="100px">
+                            </div>
+                            <div>
+                                <p>${itemProducto.producto.nombre}</p>
+                                <p class="precio-producto">$${itemProducto.producto.precio}</p>
+                                <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
+                            </div>
                         </div>
-                        <div>
-                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
-                        </div>
-                        <div>
-                            <p>Macarons</p>
-                            <p class="precio-producto">$350.00</p>
-                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="cuadro-producto">
-                        <div class="visually-hidden">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                        <div>
-                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
-                        </div>
-                        <div>
-                            <p>Macarons</p>
-                            <p class="precio-producto">$350.00</p>
-                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="cuadro-producto">
-                        <div class="visually-hidden">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                        <div>
-                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
-                        </div>
-                        <div>
-                            <p>Macarons</p>
-                            <p class="precio-producto">$350.00</p>
-                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="cuadro-producto">
-                        <div class="visually-hidden">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
-                        <div>
-                            <img class="imagen" src="imagenes/productos/1Macarons.jpg" width="100px">
-                        </div>
-                        <div>
-                            <p>Macarons</p>
-                            <p class="precio-producto">$350.00</p>
-                            <button class="visually-hidden" type="submit" value="Comprar">Comprar</button>
-                        </div>
-                    </div>
-
+                    </c:forEach>
                 </div>
-
-
-
-                <c:forEach var="producto" items="${listaProductos}">
-                    <p>${producto.nombre}</p>
-                </c:forEach>
             </div>
             <div>
-
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-
         </div>
-
     </div>
-
-
 </main>
 
 
