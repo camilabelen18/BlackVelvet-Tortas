@@ -1,3 +1,31 @@
+
+.categoria{
+    padding-top: 75px;
+}
+
+.categoria a{
+    color: black;
+    padding-left: 50px;
+    display: block;
+}
+
+.categoria a:hover{
+    background-color: #fb84dd;
+}
+
+.categoria h5{
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid #fb84dd;
+    padding-left: 50px;
+    margin-bottom: 25px;
+}
+
+.categoria-borde{
+    border: 1px solid #fb84dd;
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
 .cont-tienda-1 {
     height: 600px;
     background: no-repeat center center;
@@ -19,6 +47,21 @@
     margin-top: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
+}
+
+#inicio{
+    color: black;
+}
+
+#tienda{
+    color:#f23ec5;
+    font-weight: bold;
+}
+
+#boton-orden{
+    background-color: #fb84dd;
+    color: black;
+    border: 0;
 }
 
 .cuadro-producto{

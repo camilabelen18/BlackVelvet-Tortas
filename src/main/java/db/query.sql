@@ -1,3 +1,5 @@
+
+/*TABLA PRODUCTO*/
 INSERT INTO producto (categoria, descripcion, nombre, precio)
 VALUES (2, 'Probás uno y no podés parar. Elaborados con fino polvo de almendras y viene en seis sabores: chocolate,
         limón, frutos del bosque, maracuyá, té matcha,
@@ -81,6 +83,7 @@ Base de masa sable con almendras fileteadas,
         'Muffins', 440.00),
        (1, 'Masa sableé bretón de vainilla, pastelera y frambuesas frescas.', 'Mini Tarta de Frambuesas', 1080.00);
 
+/*TABLA IMAGEN*/
 INSERT INTO imagen(nombre)
 VALUES
     ('1Macarons'),
@@ -172,6 +175,7 @@ VALUES
     ('87Mini-Tarta-de-frambuesas'),
     ('88Mini-Tarta-de-frambuesas');
 
+/*TABLA PRODUCTO IMAGEN*/
 INSERT INTO producto_imagen (producto_id, imagen_id)
 VALUES
     (1, 1),(1, 2),(1, 3),(1, 4),

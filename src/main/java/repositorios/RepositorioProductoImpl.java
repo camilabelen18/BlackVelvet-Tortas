@@ -20,4 +20,21 @@ public class RepositorioProductoImpl implements RepositorioProducto{
     public List<Producto_Imagen> obtenerProductos() {
         return session.getCurrentSession().createCriteria(Producto_Imagen.class).list();
     }
+
+    @Override
+    public List<Producto> buscarProductos(String nombreProducto) {
+        return session.getCurrentSession().
+                createCriteria(Producto.class).
+                add(Restrictions.like("nombre","%"+nombreProducto+"%")).
+                list();
+    }
+
+    @Override
+    public List<Producto_Imagen> obtenerProductoImagen(Producto producto) {
+
+      return (List<Producto_Imagen>) session.getCurrentSession().
+                createCriteria(Producto_Imagen.class).
+                add(Restrictions.eq("producto", producto)).
+                list();
+    }
 }

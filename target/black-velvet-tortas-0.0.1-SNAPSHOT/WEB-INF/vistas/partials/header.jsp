@@ -6,14 +6,16 @@
 
 <header>
     <div class="navbar container row align-items-center m-auto my-2">
-        <div class="col-2">
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                       aria-describedby="search-addon" id="barra-busqueda"/>
-                <span class="input-group-text border-0" id="search-addon">
+        <div class="col-3">
+            <form action="buscarProductos">
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Buscar producto" aria-label="Search"
+                           aria-describedby="search-addon" id="barra-busqueda" name="barra-busqueda"/>
+                    <span class="input-group-text border-0" id="search-addon">
 					<i class="fas fa-search" id="lupa"></i>
 				</span>
-            </div>
+                </div>
+            </form>
         </div>
         <div class="col-7" id="contenedor-menu">
             <ul class="nav nav-pills justify-content-center">

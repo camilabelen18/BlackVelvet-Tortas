@@ -41,4 +41,16 @@ public class ServicioProductoImpl implements ServicioProducto{
         
         return productos;
     }
+
+    @Override
+    public List<Producto_Imagen> buscarProductos(String nombreProducto) {
+        List<Producto> listaProductos = repositorioProducto.buscarProductos(nombreProducto);
+        List<Producto_Imagen> listaProductoImagen = new ArrayList<>();
+
+        for (Producto producto:listaProductos) {
+            listaProductoImagen.add(repositorioProducto.obtenerProductoImagen(producto).get(0));
+        }
+
+        return listaProductoImagen;
+    }
 }

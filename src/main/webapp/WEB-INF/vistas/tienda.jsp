@@ -28,27 +28,30 @@
 
         <div class="categoria col-3">
             <%--PRODUCTOS_SECOS, MINI_TORTAS, ALFAJORES, TARTAS_TORTAS--%>
-            <h3>CATEGORÍAS</h3>
+            <div class="categoria-borde">
+                <h5>CATEGORÍAS</h5>
 
-            <p><a href="#">Productos Secos</a></p>
-            <p><a href="#">Mini Tortas</a></p>
-            <p><a href="#">Alfajores</a></p>
-            <p><a href="#">Tartas y Tortas</a></p>
+                <p><a href="#">Productos Secos</a></p>
+                <p><a href="#">Mini Tortas</a></p>
+                <p><a href="#">Alfajores</a></p>
+                <p><a href="#">Tartas y Tortas</a></p>
+            </div>
         </div>
 
         <div class="productos col-8">
 
             <div class="d-flex justify-content-between">
                 <div>
-                    <a href="home">Inicio</a>
-                    <span> / Tienda</span>
+                    <a href="home" id="inicio">Inicio</a>
+                    <span id="tienda"> / Tienda</span>
                 </div>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button id="boton-orden" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                         Ordenar por
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="#">Ordenar de la A-Z</a></li>
+                        <li><a class="dropdown-item" href="#">Ordenar de la A-Z</a></li>
                         <li><a class="dropdown-item" href="#">Ordenar de la Z-A</a></li>
                         <li><a class="dropdown-item" href="#">Ordenar por más barato</a></li>
                         <li><a class="dropdown-item" href="#">Ordenar por más caro</a></li>
@@ -65,7 +68,8 @@
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
                             <div>
-                                <img class="imagen" src="imagenes/productos/${itemProducto.imagen.nombre}.jpg" width="100px">
+                                <img class="imagen" src="imagenes/productos/${itemProducto.imagen.nombre}.jpg"
+                                     width="100px">
                             </div>
                             <div>
                                 <p>${itemProducto.producto.nombre}</p>
