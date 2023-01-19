@@ -21,7 +21,11 @@ public class ControladorPrincipal {
         return new ModelAndView("index");
     }
 
+    @RequestMapping(path = "/contacto", method = RequestMethod.GET)
+    public ModelAndView irAContacto() {
 
+        return new ModelAndView("contacto");
+    }
 
 
 }

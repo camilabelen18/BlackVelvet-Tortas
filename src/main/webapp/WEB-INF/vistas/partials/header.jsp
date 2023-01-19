@@ -32,7 +32,7 @@
                     <a class="nav-link" href="#">Propuestas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Otro</a>
+                    <a class="nav-link" href="contacto">Contacto</a>
                 </li>
             </ul>
         </div>
